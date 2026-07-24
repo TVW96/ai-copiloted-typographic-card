@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A responsive editorial article card built with pure HTML and CSS."
+    />
+    <title>Into the Quiet — Article Card</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <input
+        class="theme-checkbox"
+        id="theme-toggle"
+        type="checkbox"
+        aria-label="Use dark theme"
+      />
+
+      <label class="theme-toggle" for="theme-toggle">
+        <span aria-hidden="true">☀</span>
+        <span class="toggle-track" aria-hidden="true">
+          <span class="toggle-thumb"></span>
+        </span>
+        <span aria-hidden="true">◐</span>
+      </label>
+
+      <article class="article-card">
+        <figure class="article-media">
+          <img
+            src="https://images.unsplash.com/photo-1754386141957-e163df5b91da?auto=format&amp;fit=crop&amp;fm=jpg&amp;q=85&amp;w=1600"
+            alt="A wooden cabin beside a still alpine lake beneath misty mountains"
+          />
+          <figcaption class="visually-hidden">
+            A quiet cabin in the Bavarian Alps.
+          </figcaption>
+        </figure>
+
+        <div class="article-content">
+          <div class="article-meta">
+            <span class="category-badge">Field Notes</span>
+            <span class="read-time">6 min read</span>
+          </div>
+
+          <div class="article-copy">
+            <h1>Into the quiet: finding wonder beyond the marked trail</h1>
+            <p>
+              In the Bavarian Alps, the best journeys begin where the map grows
+              faint—and the noise of everyday life finally falls away.
+            </p>
+          </div>
+
+          <a class="article-button" href="#article">
+            <span>Read Article</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
