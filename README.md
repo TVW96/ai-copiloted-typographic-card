@@ -16,5 +16,11 @@
 3. Inline-size, block-size, border, outline, outline-offset, border-radius, margin, and padding are all using non relative sizing. The later mentioned are using px sizing. 
 4. Two light-theme text states fall below WCAG AA’s 4.5:1 requirement for normal-sized text. I made a fix for this by updating the accent variable. 
 
+### Video Demo
+
+
+https://github.com/user-attachments/assets/f874a51a-21b4-417f-bd1a-bb94a2b84ced
+
+
 
 
